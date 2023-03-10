@@ -12,3 +12,6 @@
 # Resultado
 
 ![fluxograma_graphviz/fluxograma.png](https://github.com/renatonunes74/fluxograma_graphviz/blob/main/fluxograma.png?raw=true)
+
+# Obrigado
+- Refeito a partir do template de [tobeylin](https://gist.github.com/tobeylin/9baaeb960738d0921f54e369b060ac2f)
