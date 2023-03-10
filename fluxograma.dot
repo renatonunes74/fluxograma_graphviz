@@ -1,0 +1,27 @@
+digraph {
+    graph [compound=true;splines=ortho;bgcolor="#000000"];
+    edge [fontcolor="#ffffff";color="#ffffff"];
+	//bloco inicio e fim
+    node[shape="box";style="filled, rounded";fillcolor=4;colorscheme=pastel16;fontsize=12;fontcolor="#000000";color="#000000"];
+    inicio, fim;
+
+    node[shape="box";style="filled";fillcolor=2;colorscheme=pastel16;fontsize=12;fontcolor="#000000";color="#000000"];
+	"tarefa";
+
+	node[shape="parallelogram";style="filled";fillcolor=3;colorscheme=pastel16;fontsize=12;fontcolor="#000000";color="#000000"];
+	"dados";
+
+    node[shape="diamond";style="filled";fillcolor=6;colorscheme=pastel16;fontsize=12;fontcolor="#000000";color="#000000"];
+    "condição";
+
+	node[shape="box";style="dashed";fontsize=10;fontcolor="#ffffff";color="#ffffff"];
+    "comentário";
+
+	node[shape="record";style="filled";fillcolor=5;colorscheme=pastel16;fontsize=12;fontcolor="#000000";color="#000000"];
+
+    inicio -> tarefa -> dados -> comentário -> condição;
+    condição -> processo [label="sim", arrowhead="white", color="#ffffff"];
+    condição -> processo2 [label="nao"];
+    processo2, processo -> fim [color="#ffffff"];
+
+}
