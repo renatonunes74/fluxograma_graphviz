@@ -5,3 +5,5 @@
 2. Compile o arquivo .dot usando o Graphviz
 
 # Resultado
+
+![](fluxograma_graphviz/fluxograma.png)
