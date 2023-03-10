@@ -6,4 +6,4 @@
 
 # Resultado
 
-![](fluxograma_graphviz/fluxograma.png)
+![fluxograma_graphviz/fluxograma.png](https://github.com/renatonunes74/fluxograma_graphviz/blob/main/fluxograma.png?raw=true))
