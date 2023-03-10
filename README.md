@@ -7,7 +7,7 @@
 # Observação
 
 - O template esta em modo dark (fundo preto)
-- Instruções básicas de como inserir a partir da estrutura esta no mesmo arquivo (fluxograma.dot)
+- Instruções básicas de como inserir a partir da estrutura esta no mesmo arquivo (`fluxograma.dot`)
 
 # Resultado
 
